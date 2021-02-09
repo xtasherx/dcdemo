@@ -1,0 +1,28 @@
+.hero-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(17, 14, 66, 0.8)),
+    url(bluebonnets.jpg);
+  background-size: cover;
+}
+
+.bg-blue {
+  background-color: #110e42;
+}
+
+.text-blue {
+  color: #110e42;
+}
+
+.tiles {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 700px) {
+  .tiles {
+    flex-direction: row;
+  }
+
+  .tile {
+    margin: 5px;
+  }
+}
